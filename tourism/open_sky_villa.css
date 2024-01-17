@@ -1,0 +1,355 @@
+*{ margin:0px ; padding:0px }
+
+ 
+h1 , h2, h3, h4, h5, h6   {font-family : Oswald  }
+body, p, a , button      {font-family: 'Roboto Slab', serif; font-size:13px }
+.top-header        { width:100% ; text-align:right; background:#2ec0f9 ; position:fixed; top:0px ;z-index:9999 }
+.top-header a      { padding:0px 10px ; display:inline-block ; padding:7px }
+.top-header span   { padding:5px ; font-size:26px }
+#call              { padding-left:30px ; padding:5px }
+.top-header a.pad  { padding:20px ; padding-bottom:15px }
+#binos             { padding-right:200px}
+
+
+.top-menu-bar             { width:100% ; background:floralwhite ; position:fixed; top:40px ; z-index: 9999}
+.top-menu-bar .logo       { display:inline-block ; width: 26% }
+.top-menu-bar .logo img   { width:33% ; padding-left: 180px ;  }
+
+.top-menu-bar .menu-bar                        { display:inline-block ; width:66% ; vertical-align: top;}
+.top-menu-bar .menu-bar ul li 			       {  display:inline-block ; padding: 0px 13px ; padding-top:22px  }  
+.top-menu-bar .menu-bar ul li a 		       { font-size: 19px ; text-decoration: none; color: black}
+.top-menu-bar .menu-bar ul li a#contact        { font-size: 19px ; text-decoration: none; color: black; padding-top: 10px ; padding-right:17.3px ; padding-left: 17.3px; padding-bottom:6px ;  background:skyblue; transition:0.8s} 
+.top-menu-bar .menu-bar ul li a#contact:hover  {color:white; } 
+.top-menu-bar .menu-bar ul li a#booking        { font-size: 19px ; text-decoration: none; color: black ; background: orange; padding-top: 10px ; padding-right:17.3px ; padding-left: 17.3px; padding-bottom:6px ; transition:0.8s }  
+.top-menu-bar .menu-bar ul li a#booking:hover  { color:white; background:#007bff; }
+.top-menu-bar .menu-bar ul li a:hover #contact { background:black }
+
+
+
+
+.slide1      { width: 100%}
+.slide1 img  { width:100% ; height:690px }
+
+.home { background:white; }
+
+.welcome     { width:100% ; text-align: center ; padding-top: 100px}
+.welcome h1  { font-size:39px ; font-family:Lato ; font-weight: 400}
+.welcome p   { font-size:25px ; width:70% ; margin-right:auto; margin-left:auto;}
+.welcome p#bo   { font-weight:600 ; font-size:25px ; width:70% ; margin-right:auto; margin-left:auto; }
+
+
+.about         { width:80% ; margin-right:auto; margin-left:auto; margin-top: 30px}
+.about .ai      { display:inline-block ; width:49.5% ; overflow:hidden}
+.about .ai img  { width:100% ; transition:0.9s }
+ .ai img:hover  { transform:scale(1.1); } 
+
+.about .at        {display:inline-block;width:49.5%;vertical-align:top;text-align:center;background:white;padding-top: 45px;padding-right:auto;padding-left:auto;}
+.about .at h1     {  font-size: 39px ; font-weight:400 ; font-family:lato }
+.about .at p      { font-size:16px ; font-family:sans-serif; padding: 30px 50px ; line-height: 25px}
+.about .at button { border: 1px solid orange ; background:orange; padding: 13px 28px ; font-size:20px ; margin-bottom:53px }
+.at button:hover  { background:skyblue; color:white; border: 1px solid skyblue; }
+
+
+.about         { width:80% ; margin-right:auto; margin-left:auto; }
+.about .bi     { display:inline-block ; width:49.5% ; overflow:hidden}
+.about .bi img { width:100% ; transition:0.95s }
+.bi img:hover  { transform:scale(1.1); } 
+
+.about .bt        { display:inline-block ; width:49.5% ; vertical-align: top ; text-align: center; background:white; padding-top: 45px ; padding-right: auto ; padding-left: auto;}
+.about .bt h1     { font-size: 39px ; font-weight:400 ; font-family:lato }
+.about .bt p      { font-size:16px ; font-family:sans-serif; padding:10px ; line-height: 18px}
+.about .bt button { border: 1px solid orange ; background:orange; padding:10px 28px ; margin-top:20px ; font-size:20px }
+.bt button:hover  { background:skyblue; color:white; border: 1px solid skyblue; }
+
+
+.about          { width:80% ; margin-right:auto; margin-left:auto; }
+.about .ci      { display:inline-block ; width:49.5% ; overflow: hidden;}
+.about .ci img  { width:100% ; transition:0.95s }
+.ci img:hover   { transform:scale(1.1); } 
+
+.about .ct         { display:inline-block ; width:49.5% ; vertical-align: top ; text-align: center; background:white; padding-top: 45px ; padding-right: auto ; padding-left: auto;}
+.about .ct h1      { font-size: 39px ; font-weight:400 ; font-family:lato }
+.about .ct p       { font-size:15px ; font-family:sans-serif; padding: 30px 50px ; line-height: 22px}
+.about .ct button  { border: 1px solid orange ; background:orange; padding: 13px 28px ; font-size:20px ; margin-bottom:25px }
+.ct button:hover   { background:skyblue; color:white; border: 1px solid skyblue; }
+
+
+.about          { width:80% ; margin-right:auto; margin-left:auto; padding-bottom:40px }
+.about .di      { display:inline-block ; width:49.5% ; overflow:hidden; }
+.about .di img  { width:100% ; transition:0.95s }
+.di img:hover   { transform:scale(1.1); } 
+
+.about .dt         { display:inline-block ; width:49.5% ; vertical-align: top ; text-align: center; background:white; padding-top: 45px ; padding-right: auto ; padding-left: auto;}
+.about .dt h1      { font-size: 39px ; font-weight:400 ; font-family:lato }
+.about .dt p       { font-size:16px ; font-family:sans-serif; padding: 30px 50px ; line-height: 25px}
+.about .dt button  { border: 1px solid orange ; background:orange; padding: 13px 28px ; font-size:20px ; margin-bottom:78px }
+.dt button:hover   { background:skyblue; color:white; border: 1px solid skyblue; }
+
+
+.activities     { width:75% ; margin-right: auto; margin-left: auto; text-align: center; margin-top: 70px ; margin-bottom: 70px}
+.activities h1  { font-size:45px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; } 
+.activities p   { font-size:14px ; font-family:sans-serif; margin-top:10px ; margin-bottom:32px }
+
+
+
+.activity2       { display:inline-block; width:31% ; margin: 10px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 0.9s}
+.activity2:hover { margin-top:-4px ; background: lightpink;} 
+.activity2 img   { width:100% }
+.activity2 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activity2 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:17.5px }
+
+.activity3       { display:inline-block; width:31% ; margin: 10px ; border: 1.2px solid lightgrey; vertical-align: top;  transition: 0.9s}
+.activity3:hover { margin-top:-4px ; background: lightpink;} 
+.activity3 img   { width:100% }
+.activity3 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px } 
+.activity3 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; }
+
+.activity1       { display:inline-block; width:31% ; margin: 10px ; border: 1.2px solid lightgrey; vertical-align: top;  transition: 0.9s}
+.activity1:hover { margin-top: -4px ; background: lightpink;}  
+.activity1 img   { width:100% }
+.activity1 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px } 
+.activity1 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; margin-bottom: 49.5px }
+
+.transparent      { background:url(../images/transparentbg.jpg); }
+.transparent .tb  { width:46% ; background: rgba(255, 255, 255, .25); padding:30px }
+
+
+
+.montgo           { background:orange; margin:20px; background: rgb(255 255 255) }
+.montgo .img      { width : 23% ; display: inline-block; }
+.montgo img       { width:100% ; display:inline-block; }
+.montgo .text     { width:70% ; display:inline-block; vertical-align: top; padding:20px ; }
+.montgo .text h1  { font-size:30px ; letter-spacing:1.3px }
+.montgo .text p   { font-size:23px ; padding-top:10px  }
+
+ 
+.collosa          { background:orange; margin:20px ; background: rgb(255 255 255)} 
+.collosa .img     { width : 23% ; display: inline-block; }
+.collosa img      { width:100% ; display:inline-block; }
+.collosa .text    { width:70% ; display:inline-block; vertical-align: top; padding:20px ; }
+.collosa .text h1 { font-size:30px ; letter-spacing:1.3px }
+.collosa .text p  { font-size:23px ; padding-top:10px  }
+
+
+
+.penon            { background:orange; margin: 20px ; background: rgb(255 255 255 )} 
+.penon .img       { width : 23% ; display: inline-block; }
+.penon img        { width:100% ; display:inline-block; }
+.penon .text      { width:70% ; display:inline-block; vertical-align: top; padding:20px ; }
+.penon .text h1   { font-size:30px ; letter-spacing:1.3px } 
+.penon .text p    { font-size:23px ; padding-top:10px  }
+
+
+
+
+.impressions        { width:70% ; margin-right:auto; margin-left:auto; }
+.impressions h1     { font-size:37px ; font-family:lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px ; margin-right: auto; 
+                      margin-left: auto; text-align:center; } 
+
+.impressions img    { width:13% ; margin-right:auto; margin-left:auto; display:block; }
+.impressions p      { font-weight:802;font-size:19px;font-family:sans-serif;width:88%;margin-right:auto;margin-left:auto;margin-bottom:16px;text-align:center;}
+
+.impressions button { border: 1px solid skyblue ; background:skyblue; padding:10px 30px ; margin-left: auto; margin-right: auto; }
+
+
+.impressions .imp      { width:24%; display:inline-block; margin-left: auto; margin-right:auto; margin:0px }
+.impressions .imp img  { width:100% ; padding:10px }
+
+
+.ending    { background:#081126; width:96% ; vertical-align: top; padding: 30px ;}
+.e1        { width:70% ; margin-left:auto; margin-right:auto; }
+
+.ending .logo      { width:20% ; display:inline-block; padding: 19px ; vertical-align: top}
+.ending .logo img  { width: 100% }
+.ending .logo p    { color:white; font-size:28px ; font-weight:10 ; line-height:20px ;  }
+
+.navigation         { width:20% ; display:inline-block; padding:19px ; vertical-align: top}
+.navigation h1      { color:orange; font-size:31px ; padding-top: 15px ; padding-bottom:15px }
+.navigation ul li   { list-style:none }
+.navigation ul li a { vertical-align:top ; text-decoration:none; color:white; font-size: 27px ; font-weight:300 ; padding:3px ;  }
+
+.contact     { width:23% ; display:inline-block ; padding: 20px ;vertical-align: top}
+.contact     { color:orange; font-size:28px  } 
+.contact h2  { color:aqua ; font-size:25px ; font-weight:200 ; padding: 3px} 
+.contact p   { color:white ; font-size:19px ; line-height:13px }
+
+
+.stay-in-touch            { display:inline-block ; width:20%  ; padding: 20px;vertical-align: top}
+.stay-in-touch h1         { color:orange; font-size:28px  } 
+.stay-in-touch p          { color:white ; font-size:21px ;}
+.stay-in-touch form       { padding-top:8px ; padding-bottom:6px ; }
+.stay-in-touch form input { padding:5px 2px  ; width:100% ; font-size:18px }
+.stay-in-touch button     { background:orange ; padding:6px 10px ; border:none ; margin-top:5px ; font-size:25px ; border-radius: 4px}
+
+
+
+
+
+
+
+
+
+
+
+.rooms_bg { background:url(../images/room_bg.jpg) no-repeat center; background-size:cover; padding:8em ; opacity:70% ; height:90px }
+.rooms_bg .rooms { width:100% ; text-align:center; font-size:30px ; padding-top:70px }
+
+.rm { width:80% ; margin-right: auto; margin-left: auto;}
+.r1 { width:100% ; padding:23px  }
+.ri { width:44% ; display:inline-block ; }
+.ri img { width:100% }
+.rt { width:50% ; display:inline-block ; text-align:left ; padding:30px ; vertical-align:top; }
+.rt h1 { font-size:39px ; font-weight:200 }
+.rt p { font-size: 22px  }
+.rt button { background:orange ; padding:10px 20px ; font-size: 17px ; border: 1px solid orange ; transition:0.3s }
+.rt button:hover { background:skyblue ; padding:10px 20px ; font-size: 17px ; border: 1px solid skyblue ; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imp_seminar { width:75% ; margin-right:auto; margin-left:auto; }
+.imp_seminar h1 { font-size:39px;font-family:lato;font-weight:400;margin-top:20px;margin-bottom:8px;margin-right:auto;margin-left:auto;text-align:center} 
+.imp_seminar img { width:11% ; display:block; margin-left:auto; margin-right:auto; }
+.impre_out { width:95% ; margin-left:auto; margin-right:auto; }
+.impre { width:24% ; display:inline-block ; margin:3px}
+.impre_out img { width:100%  }
+
+
+
+
+
+
+
+
+
+
+.activities_around_bg { display:block ; position:relative ; width:100% }
+.activities_around_bg img { height:370px ; width:100% }
+
+
+
+
+.bg_color { background : whitesmoke;}
+.activities_ar    { width:83% ; margin-right: auto; margin-left: auto; text-align: center ; padding-bottom: 70px ; padding-top:70px  }
+.activities_ar h1  { font-size:45px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; } 
+.activities_ar img { display:block; width:12% ; margin-right:auto; margin-left:auto; }
+
+
+
+.activityd1       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd1:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd1 img   { width:100% }
+.activityd1 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd1 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:17.5px }
+
+.activityd2       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd2:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd2 img   { width:100% ; height:242px }
+.activityd2 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd2 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:88px }
+
+.activityd3       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd3:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd3 img   { width:100% }
+.activityd3 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd3 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:105px }
+
+.activityd4       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd4:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd4 img   { width:100% }
+.activityd4 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd4 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:17.5px }
+
+.activityd5       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd5:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd5 img   { width:100% }
+.activityd5 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd5 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:35.5px }
+
+.activityd6       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityd6:hover { transform: scale(1.1); background:floralwhite;} 
+.activityd6 img   { width:100% }
+.activityd6 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityd6 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:88px }
+
+
+
+
+
+
+
+
+
+
+
+
+.activityr1       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr1:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr1 img   { width:100% }
+.activityr1 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr1 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:30px }
+
+
+.activityr2       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr2:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr2 img   { width:100% }
+.activityr2 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr2 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:48px }
+
+
+.activityr3       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr3:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr3 img   { width:100% ; height:245px }
+.activityr3 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr3 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:28px }
+
+
+.activityr4       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr4:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr4 img   { width:100% }
+.activityr4 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr4 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:28px }
+
+
+.activityr5       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr5:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr5 img   { width:100% ; height:245px }
+.activityr5 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr5 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:60.5px }
+
+.activityr6       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr6:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr6 img   { width:100% }
+.activityr6 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr6 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:62.5px }
+
+.activityr7       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr7:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr7 img   { width:100% }
+.activityr7 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr7 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:38px }
+
+
+.activityr8       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr8:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr8 img   { width:100% }
+.activityr8 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr8 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:38px }
+
+
+.activityr9       { display:inline-block; width:29% ; margin: 15px ; border: 1.2px solid lightgrey; vertical-align: top; transition: 1s}
+.activityr9:hover { transform: scale(1.1); background:floralwhite;} 
+.activityr9 img   { width:100% }
+.activityr9 h1    { font-size:37px ; font-family: lato ; letter-spacing: 1px ; font-weight: 400 ; margin-top:20px ; margin-bottom: 8px} 
+.activityr9 p     { font-size:15px ; font-family:sans-serif ; width:88% ; margin-right:auto; margin-left:auto; padding-bottom:68px }
+
+
